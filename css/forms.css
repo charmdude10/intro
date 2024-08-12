@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: yellowgreen;
+  padding: 2rem;
+}
+
+.logo {
+  color: white;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 1rem;
+}
+
+.navbar:hover {
+  cursor: pointer;
+}
+.navbar ul li:hover {
+  /*text-decoration: underline;*/
+  background-color: aqua;
+}
+
+/*.navbar ul li:active {
+  text-decoration: dotted;
+}*/
+/* banner*/
+.banner {
+  background: url(/img/vienna-reyes-qCrKTET_09o-unsplash.jpg);
+  height: 50vh;
+  width: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+}
+
+.banner .banner-text {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+}
+
+.cform {
+  padding: 2rem;
+}
+
+.cform form {
+  background: #30a3bd;
+  /*background-color: blue;*/
+  padding: 2rem;
+}
+.cform form div {
+  margin-bottom: 1rem;
+}
+.cform form label {
+  color: white;
+  text-transform: capitalize;
+}
+.cform form textarea,
+.cform form input[type="email"],
+.cform form input[type="file"],
+.cform form input[type="time"],
+.cform form input[type="date"],
+.cform form input[type="password"],
+.cform form input[type="text"] {
+  width: 100%;
+  padding: 1rem 0.3rem;
+  font-size: 1.1rem;
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  /* border-top-right-radius: 12px;*/
+  outline: none;
+  border: none;
+}
+
+.cform form input[type="email"],
+.cform form input[type="file"],
+.cform form input[type="time"],
+.cform form input[type="date"],
+.cform form input[type="password"],
+.cform form input[type="text"],
+.cform form input[type="color"],
+.cfrom form input[type="number"] {
+  display: block;
+}
+.cfrom form input[type="number"] {
+  width: 5rem;
+  paddding: 0.7rem;
+  font-size: 1.2rem;
+}
+.cform form textarea,
+.cform form input:focus {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  width: 98%;
+}
+
+.cform form button {
+  width: 20%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  background: cyan;
+}
+
+.cform form button:hover {
+  background: wheat;
+  cursor: pointer;
+  color: aqua;
+}

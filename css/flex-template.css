@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: capitalize;
+  background-color: #fff;
+  height: 5rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+.header .logo a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #000;
+}
+.header .logo a:hover {
+  color: blue;
+}
+
+.header .navbar ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 1.5rem;
+
+  decoration: none;
+  font-size: 1.1rem;
+  color: #000;
+}
+.header .navbar ul li a:hover {
+  color: gray;
+}
+.header .navbar ul li .navbar-btn {
+  color: white;
+  background-color: blue;
+  padding: 0.6rem 1rem;
+  border-radius: 25px;
+}
+.header .navbar ul li .navbar-btn:hover {
+  color: white;
+}
+.banner {
+  background-color: #cfcfcf;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 130vh;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  padding-bottom: rem;
+}
+.banner .banner-text {
+  flex-basis: 40%;
+  padding: 5rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.banner .banner-text h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.banner .banner-text p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.img-fluid {
+  width: 150px;
+  /* height: 150px; */
+}
+.banner .banner-store {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.banner .banner-img {
+  flex-basis: 60%;
+  position: relative;
+}
+.banner .banner-img .circle {
+  height: 385px;
+  width: 385px;
+  background: linear-gradient(to right, blue, purple);
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+}
+.banner .banner-img .banner-video .game video {
+  border-radius: 18px;
+  height: 125%;
+  position: absolute;
+  bottom: -15%;
+  left: 35%;
+  border: 8px solid #000;
+}
+.banner .banner-img .banner-video {
+  height: 100%;
+  width: 100%;
+}
+.content1 {
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, blue, purple);
+  padding-top: 3rem;
+}
+.content1 .content-box {
+  flex-basis: 50%;
+}
+.content1 .content-box .grow {
+  margin-top: 1rem;
+}
+.content1 .content-box img {
+  width: 120px;
+  height: 120px;
+}
+.gift-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+.gift-container .gift-box {
+  flex-basis: 50%;
+  position: relative;
+}
+.gift-box .circle {
+  background: linear-gradient(to right, blue, purple);
+  display: block;
+  height: 280px;
+  width: 280px;
+  border-radius: 100%;
+}
+.gift-box .videos {
+  height: 400px;
+  width: 198px;
+  position: absolute;
+  top: -27%;
+  left: 15%;
+}
+.gift-box .videos video {
+  border-radius: 25px;
+  border: 12px solid #000;
+  height: 120%;
+  width: 119%;
+}
+.gift-box .gift-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.gift-child .boxed {
+  flex-basis: 48%;
+  padding: 1.4rem;
+  text-align: center;
+}
+.gift-child .boxed h5 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.gift-child .boxed p {
+  font-size: 1.5rem;
+  color: gray;
+}
+.gift-child .boxed i {
+  color: blue;
+  padding-bottom: 1rem;
+  font-size: 4.6rem;
+}
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #cfcfcf;
+  height: 120vh;
+}
+.parent-container .child1 {
+  flex-basis: 38%;
+}
+.parent-container .child1 h2 {
+  font-size: 5.2rem;
+  margin-bottom: 2rem;
+}
+.parent-container .child1 p {
+  font-size: 1.8rem;
+}
+.parent-container .child1 .child-circle {
+  background: linear-gradient(to right, blue, purple);
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+}
+.boxi-container {
+  height: 100vh;
+  background: grey;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.boxi-container .boxi-content {
+  flex-basis: 38%;
+  padding-bottom: 2rem;
+}
+.boxi-container .boxi-content h2 {
+  font-size: 7.3rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.boxi-btn {
+  background: transparent;
+  text-decoration: none;
+  color: white;
+  margin-top: 2rem !important;
+  font-size: 1.7rem;
+  border: 1px solid #fff;
+  padding: 1.5rem;
+  border-radius: 50px;
+  transition: ease 0.5s;
+  &:hover {
+    background: #fff;
+    color: black;
+  }
+}
+/* .boxi-btn:hover{
+    background: #fff;
+    color: black;
+} */
+.service-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, blue, purple);
+  height: 40vh;
+  text-align: center;
+  font-size: 1.9rem;
+  color: white;
+}
+.service-containers .servixe-content {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.michael {
+  width: 150px;
+}
+
+.paren-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  padding: 2rem;
+  height: 10rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.paren-container ul li {
+  display: inline;
+  gap: 1rem;
+  align-items: center;
+}
+.paren-container ul li a {
+  text-decoration: none;
+   color: white;
+}
+
+@media (max-width: 1400px) {
+  .boxi-container .boxi-content h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+}
+@media (max-width: 1200px) {
+  /*.service-containers .servixe-content .michael1 {
+    width: 100%;
+    height: 100%;
+  }*/
+  .banner .banner-text {
+    flex-basis: 20%;
+  }
+  .banner {
+    height: 80vh;
+  }
+  .gift-child .boxed i {
+    color: blue;
+    padding-bottom: 1rem;
+    font-size: 2.3rem;
+  }
+  .gift-child .boxed {
+    flex-basis: 40%;
+    padding: 1.2rem;
+    text-align: center;
+  }
+  .gift-child .boxed h5 {
+    font-size: 1.4rem;
+  }
+
+  .gift-child .boxed p {
+    font-size: 1rem;
+    color: grey;
+  }
+
+  .boxi-container .boxi-content h2 {
+    font-size: 2.5rem;
+    color: white;
+  }
+}
+@media (max-width: 992px) {
+  /*.service-containers .servixe-content .michael1 {
+    width: 100%;
+    height: 100%;
+  }*/
+  .banner .banner-text h1 {
+    font-size: 3rem;
+  }
+
+  .banner .banner-text {
+    flex-basis: 50%;
+  }
+  .banner .banner-text {
+    padding-left: 1rem;
+  }
+
+  .banner {
+    height: 220vh;
+    text-align: center;
+  }
+  .banner .banner-img .banner-video .game video {
+    bottom: -15%;
+    left: 28%;
+  }
+
+  .banner .banner-store {
+    justify-content: center;
+    align-items: center;
+    background: blue;
+  }
+  .banner .banner .circle {
+    height: 355px;
+    width: 355px;
+  }
+  .content1 {
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+  }
+  .content1 .content-box img {
+    width: 80px;
+    height: 80px;
+  }
+  .gift-container .gift-box {
+    flex-basis: 100%;
+    position: relative;
+  }
+  .gift-container {
+    height: 190vh;
+  }
+  .gift-child .boxed {
+    flex-basis: 100%;
+    padding: 0.9rem;
+  }
+  .gift-box .gift-child {
+    gap: 1rem;
+  }
+  .gift-box .circle {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+  }
+  .gift-box .videos {
+    top: -10%;
+    left: 37%;
+  }
+  .gift-child .boxed {
+    flex-basis: 45%;
+    padding: 1.2rem;
+    text-align: center;
+  }
+  .gift-child .boxed i {
+    color: blue;
+    padding-bottom: 1rem;
+    font-size: 2.3rem;
+  }
+  .parent-container {
+    height: 130vh;
+  }
+  .parent-container .child1 {
+    flex-basis: 80%;
+  }
+  .parent-container .child1 p {
+    font-size: 1.1rem;
+  }
+  .parent-container .child1 .child-circle {
+    height: 280px;
+    width: 280px;
+    margin: auto;
+  }
+  .boxi-container .boxi-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  .boxi-btn {
+    margin-top: 1rem !important;
+    font-size: 1.2rem;
+    padding: 1.1rem;
+  }
+}
+@media (max-width: 767px) {
+  .header .logo a {
+    font-size: 1rem;
+  }
+  .header .navbar ul li .navbar-btn {
+    padding: 0.2rem 0.5rem;
+  }
+  .header .navbar ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+  }
+  .banner {
+    height: 70vh;
+    padding-bottom: 2rem;
+  }
+  .banner .banner-text {
+    width: 100%;
+    padding-left: 0rem;
+    flex-shrink: 0;
+  }
+  .banner .banner-text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .banner .banner-text p {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .banner .banner-store {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: green;
+  }
+  .banner .banner-img {
+    flex-basis: 28%;
+    position: relative;
+  }
+  .img-fluid {
+    /*width: 150%;
+    /*height: 150%;*/
+  }
+  .banner .banner-img .circle {
+    height: 385px;
+    width: 385px;
+  }
+  .banner .banner-img {
+    flex-basis: 100%;
+    position: relative;
+  }
+  .gift-child .boxed 1 {
+    color: blue;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .gift-child .boxed {
+    flex-basis: 80%;
+  }
+  .gift-box .videos {
+    top: -10%;
+    left: 28%;
+  }
+  .service-containers .servixe-content {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-containers {
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+
+  .service-containers .servixe-content {
+    margin-top: 0.1rem;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .servixe-content div {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .boxi-container .boxi-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  /*.service-containers div img {
+    width: 100px;
+    height: 100px;
+  }*/
+}
+
+@media (max-width: 1250px) {
+  .banner {
+    background: green;
+    height: 150vh;
+  }
+}

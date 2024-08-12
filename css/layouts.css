@@ -1,0 +1,44 @@
+.june {
+  background-color: blueviolet;
+  border: 12rem blue;
+  padding-bottom: 40px;
+  margin: 2rem;
+  height: 2rem;
+  width:20rem;
+  position: relative;
+  /*flex-wrap: wrap;*/
+  
+ 
+  /* position: fixed; */
+  /* position: static; */
+  /* position: absolute;
+  positon: relative;  
+  top: 37%;
+  right: 65%; */
+  /* bottom: ; */
+  /* left: 70%; */
+}
+
+.june p {
+  background: whitesmoke;
+  position: absolute;
+   top: -16px;
+   right: 0;
+    padding: 0px 0;
+ 
+  
+ 
+}
+
+ul li {
+  /* display: inline-block; */
+  /* display: block;*/
+  /*display: none;*/
+  /* display: grid; parent vertical;*/
+  /* display: flex;
+}
+
+/* absolute */
+/* fixed */
+/* static */
+/* relative */

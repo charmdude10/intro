@@ -1,0 +1,68 @@
+/*
+% ======percentage
+rem ===== rem 18px = 1rem 0.1 0.2 2.7
+em === em 16px == 1em
+
+px == pixels 0.1, 2. 2
+vh == view port height
+vw == view port width
+
+margin and padding
+
+marginn==nspacing outside of your container or element
+padding == spacing inside or within your container or element.
+
+pdding: 1rem; /*on all sides
+padding: 1rem 10rem 5em; /*top left/right bottom
+padding: 1rem .5rem 7rem 10rem; /*top bottom left right
+padding: 1rem 10rem, top/bottom left/right
+
+margin: 1rem; /*onall sides
+margin: 1rem 10rem 5em, /*top left/right bottom
+margin: 1rem .5em 7rem 10rem; /*top bottom left right
+margin: 1rem 10rem, top/bottom left/right
+*/
+.table-container {
+  overflow: scroll;
+}
+
+table {
+  background: red;
+  width: 100%;
+  margin-top: 5rem;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 900;
+  border-collapse: collapse;
+  /* margin-top: 5px; */
+  /* margin-top: 5em; */
+  /* margin-top: 5%; */
+  /* margin-top: 515vh; */
+}
+
+table th {
+  background-color: yellow;
+  color: red;
+  padding: 1rem; /*on all sides*/
+}
+
+table tbody td {
+  /*background: blue;*/
+  padding: 1rem;
+  /*color: white;*/
+  text-transform: capitalize;
+}
+table tbody tr:nth-child(even) {
+  background-color: greenyellow;
+  color: black;
+}
+
+table tbody tr:nth-child(2) {
+  background-color: purple;
+  color: white;
+}
+
+table tbody tr:last-child {
+  background-color: darkturquoise;
+  color: wheat;
+}

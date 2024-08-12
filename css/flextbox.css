@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-container {
+  background: rgb(255, 123, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.box {
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 1rem;
+  background: rgb(179, 0, 255);
+  color: aqua;
+  margin-bottom: 1rem;
+}
